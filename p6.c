@@ -1,3 +1,15 @@
+//Wade Colby Roundy
+//Project 6
+//Details for this project
+/*
+In this assignment, you will write a program that will calculate the page 
+index and offset given a hexadecimal logical address. The page size for this 
+assignment is 4KB.
+*/
+
+
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
