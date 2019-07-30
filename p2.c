@@ -1,12 +1,17 @@
-//Wade Roundy
-//CS3060-001 
+//Wade Colby Roundy
 //Project 2
-/* Promise of Originality
-I promise that this source code file has, in it's entirety, been
-written by myself and by no other person or persons. If at any time an
-exact copy of this source code is found to be used by another person in
-this term, I understand that both myself and the student that submitted
-the copy will receive a zero on this assignment.
+//Details for this project
+/*Your program will call the fork system call at the very start. 
+The parent process will display a message indicating it has started and will then wait 
+for a specific child process ID to complete. Once the child process has completed, the 
+parent process will display a message indicating that the child is complete and the 
+parent will now terminate.  The child process will display a message indicating that 
+it has started. If one or more arguments were provided on the command line, the child 
+process will perform the appropriate exec system call to load the new executable into 
+memory with the appropriate arguments if provided. It should call execlp if there is one 
+argument and execvp if there is more than one argument. The child process should print a 
+message saying which version of exec it is calling, as in the examples below. If no arguments 
+were provided, the child process will display a message indicating that it will terminate.
 */
 
 
