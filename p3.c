@@ -1,3 +1,20 @@
+//Wade Colby Roundy
+//Project 3
+//Details for this project:
+/*You will create a multithreaded program that takes one or more numeric 
+arguments from the command line and displays the prime factors of each number. 
+Each child thread will be passed a number from the parent thread that should be 
+factored by that thread. Each number should be factored by a different thread. 
+Each child thread will return a sorted integer array of prime factors for that 
+number. The parent thread will wait for each thread to terminate. The parent 
+thread will display the original number provided and all factors returned by 
+the child thread to the console.  All threads should be created before any are 
+joined. The reason for using multiple threads in a program like this is so that 
+calculations can be faster if there is more than one processor or core.  The child 
+threads must not display any data. Your only output should be provided by the main 
+thread, and only after waiting for the thread to complete.
+*/
+
 #include<stdio.h>
 #include<pthread.h>
 #include<string.h>
