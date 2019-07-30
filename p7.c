@@ -1,3 +1,21 @@
+//Wade Colby Roundy
+//Project 7
+//Details for this project
+/*In this assignment, you will be writing a program that reads a list of disk block 
+access requests from stdin. That list will be used four times to run through the 
+following block access algorithms:
+- First Come, First Served
+- Shortest Seek Time First
+- Non-circular LOOK
+- Circular LOOK
+Your program will show the total seek values for each algorithm. The first value from 
+the list is the last completed block request, and thus is the current block position for 
+the device. Your program only needs to work with a maximum of 100 block requests.
+*/
+
+
+
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
